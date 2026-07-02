@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analytics</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <nav>
+
+        <h2>URL Shortener</h2>
+
+        <div>
+
+            <a href="/">Home</a>
+
+            <a href="/analytics">Analytics</a>
+
+        </div>
+
+    </nav>
+
+    <h1>All Shortened URLs</h1>
+
+    <table>
+
+        <tr>
+
+            <th>Original URL</th>
+
+            <th>Short URL</th>
+
+            <th>Clicks</th>
+
+        </tr>
+
+        <% urls.forEach(url => { %>
+
+        <tr>
+
+            <td>
+
+                <a href="<%= url.originalUrl %>" target="_blank">
+
+                    <%= url.originalUrl %>
+
+                </a>
+
+            </td>
+
+            <td>
+
+                <a href="/<%= url.shortCode %>">
+
+                    <%= url.shortCode %>
+
+                </a>
+
+            </td>
+
+            <td>
+
+                <%= url.clicks %>
+
+            </td>
+
+        </tr>
+
+        <% }) %>
+
+    </table>
+
+    <footer>
+
+        <p>Developed by <strong>Romesa Farooq</strong></p>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
