@@ -65,13 +65,13 @@ url-shortener/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
+git clone https://github.com/Romesa-Farooq/URL_shortener_backend.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd url-shortener
+cd url_shortener_backend
 ```
 
 Install dependencies:
@@ -115,13 +115,13 @@ http://localhost:3000
 ## 🌐 Live Demo
 
 **Railway Deployment:**  
-_Add your Railway URL here_
+_http://urlshortenerbackend-production-6587.up.railway.app/?authuser=0_
 
 ---
 
 ## 📁 GitHub Repository
 
-_Add your GitHub repository link here_
+_https://github.com/Romesa-Farooq/URL_shortener_backend_
 
 ---
 
@@ -131,7 +131,7 @@ _Add your GitHub repository link here_
 
 GitHub: https://github.com/Romesa-Farooq
 
-LinkedIn: _Add your LinkedIn profile URL_
+LinkedIn: _www.linkedin.com/in/romesa-f-245889290_
 
 ---
 
